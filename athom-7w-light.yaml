@@ -227,6 +227,10 @@ light:
               duration: 500ms
             - state: False
               duration: 500ms
+      - flicker:
+          name: "Flicker Effect"
+          update_interval: 100ms
+          alpha: 90%
       - pulse:
           name: "Pulse Effect"
           transition_length: 2s
